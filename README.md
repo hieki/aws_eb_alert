@@ -1,0 +1,1 @@
+SlackにAWS EBのヘルスチェックが低下以下だった場合に、SNS経由でLambdaを起動してSlackに投稿するアレコレ
