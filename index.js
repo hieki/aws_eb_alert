@@ -1,7 +1,7 @@
 
 const https = require("https");
 const url = require("url");
-const SLACK_URL = "YOUR_SLACK_WEBHOOK_RUL";
+const SLACK_URL = "YOUR_SLACK_WEBHOOK_URL";
 const SLACK_REQ_OPTS = url.parse(SLACK_URL);
 SLACK_REQ_OPTS.method = "POST";
 SLACK_REQ_OPTS.headers = {"Content-Type": "application/json"};
